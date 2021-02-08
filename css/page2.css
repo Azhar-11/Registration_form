@@ -1,0 +1,141 @@
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url('../fonts/montserrat/Montserrat-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url('../fonts/montserrat/Montserrat-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: Montserrat-ExtraBold;
+  src: url('../fonts/montserrat/Montserrat-ExtraBold.ttf'); 
+}
+
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url('../fonts/montserrat/Montserrat-Medium.ttf'); 
+}
+/*//////////////////////////////////////////////////////////////////
+[ RESTYLE TAG ]*/
+
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body, html {
+    background-color:white;
+	height: 100%;
+	font-family: Montserrat-Regular, sans-serif;
+}
+
+/*---------------------------------------------*/
+h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
+}
+
+p {
+	font-family: Montserrat-Regular;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+}
+
+ul, li {
+	margin: 0px;
+	list-style-type: none;
+}
+
+img {
+           display: block;
+           margin-left: auto;
+           margin-right: auto;
+        }
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+.button {
+   /* Green */
+  text-align: center;
+  border: none;
+  color: black;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin:0 auto;
+  display:block;
+  
+}
+
+.flex-parent {
+  display: flex;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+button.margin-right {
+  margin-right: 20px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border: none;
+  color: black;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 2px solid #555555;
+ 
+}
+
+.website{
+    
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 30px;
+}
+
+.youtube{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 30px;
+}
+
+#fixedbutton1 {
+    
+    position: fixed;
+    bottom: 37px;
+    right: 100px; 
+}
+
+#fixedbutton2 {
+    
+    position: fixed;
+    bottom: 40px;
+    right: 50px; 
+}
+
+#chat{
+    color: black;
+  position: fixed;
+    bottom: 20px;
+    right: 47px;  
+}
